@@ -49,31 +49,34 @@ class AppThemeApp1 {
         useMaterial3: true,
         brightness: isDarkMode ? Brightness.dark : Brightness.light,
         textTheme: const TextTheme(
-          displayLarge: TextStyle(
-              fontSize: 30,
-              fontWeight: FontWeight.bold,
-              color: AppColors.app1BrandPrimaryColor),
-          displayMedium: TextStyle(
-              fontSize: 20,
-              fontWeight: FontWeight.bold,
-              color: AppColors.app1BrandPrimaryColor),
-          displaySmall: TextStyle(
-              fontSize: 10,
-              fontWeight: FontWeight.bold,
-              color: AppColors.app1BrandPrimaryColor),
-          labelLarge: TextStyle(
-              fontSize: 20,
-              fontWeight: FontWeight.bold,
-              color: AppColors.app1BrandPrimaryColor),
-          labelMedium: TextStyle(
-              fontSize: 15,
-              fontWeight: FontWeight.bold,
-              color: AppColors.app1BrandPrimaryColor),
-          labelSmall: TextStyle(
-              fontSize: 10,
-              fontWeight: FontWeight.bold,
-              color: AppColors.app1BrandPrimaryColor),
-        ),
+            displayLarge: TextStyle(
+                fontSize: 30,
+                fontWeight: FontWeight.bold,
+                color: AppColors.app1BrandPrimaryColor),
+            displayMedium: TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.bold,
+                color: AppColors.app1BrandPrimaryColor),
+            displaySmall: TextStyle(
+                fontSize: 10,
+                fontWeight: FontWeight.bold,
+                color: AppColors.app1BrandPrimaryColor),
+            labelLarge: TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.bold,
+                color: AppColors.app1BrandPrimaryColor),
+            labelMedium: TextStyle(
+                fontSize: 15,
+                fontWeight: FontWeight.bold,
+                color: AppColors.app1BrandPrimaryColor),
+            labelSmall: TextStyle(
+                fontSize: 10,
+                fontWeight: FontWeight.bold,
+                color: AppColors.app1BrandPrimaryColor),
+            headlineLarge: TextStyle(
+                fontSize: 33,
+                fontWeight: FontWeight.w600,
+                color: AppColors.app1BrandHeadLargeColor)),
       );
 }
 
