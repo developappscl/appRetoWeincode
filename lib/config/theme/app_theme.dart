@@ -74,7 +74,7 @@ class AppThemeApp1 {
                 fontWeight: FontWeight.bold,
                 color: AppColors.app1BrandPrimaryColor),
             headlineLarge: TextStyle(
-                fontSize: 33,
+                fontSize: 27,
                 fontWeight: FontWeight.w600,
                 color: AppColors.app1BrandHeadLargeColor)),
       );

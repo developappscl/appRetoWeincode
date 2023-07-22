@@ -6,44 +6,42 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child: Scaffold(
-        appBar: AppBar(
-          title: const Text('Retos Desing Apps'),
-        ),
-        body: Column(
-          children: [
-            const Padding(
-              padding: EdgeInsets.fromLTRB(10, 40, 10, 20),
-              child: Center(
-                child: Text('Retos de Aplicaciones'),
-              ),
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Retos Desing Apps'),
+      ),
+      body: Column(
+        children: [
+          const Padding(
+            padding: EdgeInsets.fromLTRB(10, 40, 10, 20),
+            child: Center(
+              child: Text('Retos de Aplicaciones'),
             ),
-            const SizedBox(
-              height: 30,
-            ),
-            ElevatedButton(
-              onPressed: () {
-                context.push('/app1');
-              },
-              child: const Text('Ir App 1'),
-            ),
-            const SizedBox(
-              height: 30,
-            ),
-            ElevatedButton(
-              onPressed: () {},
-              child: const Text('Ir App 2'),
-            ),
-            const SizedBox(
-              height: 30,
-            ),
-            ElevatedButton(
-              onPressed: () {},
-              child: const Text('Ir App 3'),
-            )
-          ],
-        ),
+          ),
+          const SizedBox(
+            height: 30,
+          ),
+          ElevatedButton(
+            onPressed: () {
+              context.push('/app1');
+            },
+            child: const Text('Ir App 1'),
+          ),
+          const SizedBox(
+            height: 30,
+          ),
+          ElevatedButton(
+            onPressed: () {},
+            child: const Text('Ir App 2'),
+          ),
+          const SizedBox(
+            height: 30,
+          ),
+          ElevatedButton(
+            onPressed: () {},
+            child: const Text('Ir App 3'),
+          )
+        ],
       ),
     );
   }

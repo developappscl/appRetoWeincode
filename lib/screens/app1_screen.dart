@@ -40,7 +40,7 @@ class _HomeView extends StatelessWidget {
             const Text(
               'course Here!',
               style: TextStyle(
-                  fontSize: 33,
+                  fontSize: 29,
                   fontWeight: FontWeight.w600,
                   color: Color.fromRGBO(95, 50, 245, 1)),
             )
