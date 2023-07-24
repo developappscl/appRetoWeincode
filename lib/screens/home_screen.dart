@@ -11,15 +11,13 @@ class HomeScreen extends StatelessWidget {
         title: const Text('Retos Desing Apps'),
       ),
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           const Padding(
-            padding: EdgeInsets.fromLTRB(10, 40, 10, 20),
+            padding: EdgeInsets.fromLTRB(10, 0, 10, 0),
             child: Center(
               child: Text('Retos de Aplicaciones'),
             ),
-          ),
-          const SizedBox(
-            height: 30,
           ),
           ElevatedButton(
             onPressed: () {
@@ -27,15 +25,9 @@ class HomeScreen extends StatelessWidget {
             },
             child: const Text('Ir App 1'),
           ),
-          const SizedBox(
-            height: 30,
-          ),
           ElevatedButton(
             onPressed: () {},
             child: const Text('Ir App 2'),
-          ),
-          const SizedBox(
-            height: 30,
           ),
           ElevatedButton(
             onPressed: () {},

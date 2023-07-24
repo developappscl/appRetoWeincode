@@ -15,6 +15,8 @@ class AppColors {
   static const Color app1BrandLightBorderColor =
       Color.fromRGBO(183, 186, 186, 1);
   static const Color app1BrandHeadLargeColor = Color.fromRGBO(162, 176, 207, 1);
+  static const Color app1BrandButtonColor = Color.fromRGBO(106, 51, 247, 1);
+
 // Theme App2
 
   static const Color app2BrandPrimaryColor = Colors.blue;
