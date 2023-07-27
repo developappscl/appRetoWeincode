@@ -39,7 +39,7 @@ class CardStudyWide extends StatelessWidget {
             left: 10,
             child: Text(
               title,
-              style: TextStyle(color: Colors.white),
+              style: const TextStyle(color: Colors.white),
             ),
           ),
           Positioned(
@@ -47,7 +47,7 @@ class CardStudyWide extends StatelessWidget {
             left: 10,
             child: Text(
               subTitle,
-              style: TextStyle(color: Colors.white, fontSize: 10),
+              style: const TextStyle(color: Colors.white, fontSize: 10),
             ),
           )
         ]));

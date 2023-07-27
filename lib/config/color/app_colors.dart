@@ -26,6 +26,8 @@ class AppColors {
   static const Color app2BrandSecondaryColor = Colors.white;
   static const Color app2BrandLightColor = Colors.grey;
   static const Color app2BrandLightBorderColor = Colors.grey;
+  static const Color app2BrandObjectsColor = Color(0xffff7c7f);
+  static const Color app2BackgroundColor = Color(0xfff3f3f3);
 
   // Theme App3
 

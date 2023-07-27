@@ -13,7 +13,7 @@ final router = GoRouter(routes: [
   ),
   GoRoute(
     path: '/app2',
-    builder: (context, state) => const App1Screen(),
+    builder: (context, state) => const App2Screen(),
   ),
   GoRoute(
     path: '/app3',

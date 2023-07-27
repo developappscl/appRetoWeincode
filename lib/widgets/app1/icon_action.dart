@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../config/config.dart';
+import '../../config/config.dart';
 
 class IconAction extends StatelessWidget {
   final IconButton iconButton;

@@ -26,7 +26,9 @@ class HomeScreen extends StatelessWidget {
             child: const Text('Ir App 1'),
           ),
           ElevatedButton(
-            onPressed: () {},
+            onPressed: () {
+              context.push('/app2');
+            },
             child: const Text('Ir App 2'),
           ),
           ElevatedButton(

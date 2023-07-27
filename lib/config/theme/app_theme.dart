@@ -86,6 +86,7 @@ class AppThemeApp2 {
   AppThemeApp2({required this.isDarkMode});
 
   ThemeData defaultTheme() => ThemeData(
+        scaffoldBackgroundColor: AppColors.app2BackgroundColor,
         useMaterial3: true,
         fontFamily: 'RaleWay',
         brightness: isDarkMode ? Brightness.dark : Brightness.light,
@@ -101,7 +102,7 @@ class AppThemeApp2 {
           displaySmall: TextStyle(
               fontSize: 10,
               fontWeight: FontWeight.bold,
-              color: AppColors.app2BrandPrimaryColor),
+              color: AppColors.app2BrandLightBorderColor),
           labelLarge: TextStyle(
               fontSize: 20,
               fontWeight: FontWeight.bold,

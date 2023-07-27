@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:retoweincode01/config/config.dart';
-import 'package:retoweincode01/widgets/card_study.dart';
-import 'package:retoweincode01/widgets/card_study_wide.dart';
 
-import '../widgets/widgets.dart';
+import '../widgets/app1/widgets.dart';
 
 class App1Screen extends StatefulWidget {
   const App1Screen({super.key});
@@ -150,7 +148,7 @@ class _SearchView extends StatelessWidget {
                     size: 35,
                   ),
                   hintStyle: TextStyle(
-                      color: AppColors.app2BrandLightBorderColor,
+                      color: AppColors.app1BrandLightBorderColor,
                       fontFamily: 'RobotoMono',
                       fontWeight: FontWeight.w400),
                   hintText: 'Search here...'),
