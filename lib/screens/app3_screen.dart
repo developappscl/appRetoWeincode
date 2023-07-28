@@ -75,7 +75,7 @@ class _HomeView extends StatelessWidget {
               showUnselectedLabels: false,
               elevation: 6,
               selectedIconTheme: const IconThemeData(size: 20),
-              currentIndex: 3,
+              currentIndex: 2,
               items: const [
                 BottomNavigationBarItem(
                   label: '.',
