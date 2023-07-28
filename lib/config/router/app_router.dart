@@ -1,4 +1,5 @@
 import 'package:go_router/go_router.dart';
+import 'package:retoweincode01/widgets/app3/widgets/rooms_list_screen.dart';
 
 import '../../screens/screens.dart';
 
@@ -17,10 +18,10 @@ final router = GoRouter(routes: [
   ),
   GoRoute(
     path: '/app3',
-    builder: (context, state) => const App1Screen(),
+    builder: (context, state) => const App3Screen(),
   ),
   GoRoute(
-    path: '/creditos',
-    builder: (context, state) => const CreditsScreen(),
+    path: '/rooms',
+    builder: (context, state) => const RoomListScreen(),
   )
 ]);

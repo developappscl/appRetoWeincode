@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:retoweincode01/widgets/option_app.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -16,25 +17,48 @@ class HomeScreen extends StatelessWidget {
           const Padding(
             padding: EdgeInsets.fromLTRB(10, 0, 10, 0),
             child: Center(
-              child: Text('Retos de Aplicaciones'),
+              child: Text('Seleccione la Aplicacion para visualizar'),
             ),
           ),
-          ElevatedButton(
-            onPressed: () {
+          GestureDetector(
+            onTap: () {
               context.push('/app1');
             },
-            child: const Text('Ir App 1'),
+            child: const OptionApp(
+              height: 150,
+              width: 350,
+              imageAsset: 'assets/images/app1.png',
+              title: 'App 1',
+              subTitle: 'Búsqueda de Cursos',
+              backGroundcolor: Colors.white,
+            ),
           ),
-          ElevatedButton(
-            onPressed: () {
+          GestureDetector(
+            onTap: () {
               context.push('/app2');
             },
-            child: const Text('Ir App 2'),
+            child: const OptionApp(
+              height: 150,
+              width: 350,
+              imageAsset: 'assets/images/app2.png',
+              title: 'App 2',
+              subTitle: 'E-commerce',
+              backGroundcolor: Colors.white,
+            ),
           ),
-          ElevatedButton(
-            onPressed: () {},
-            child: const Text('Ir App 3'),
-          )
+          GestureDetector(
+            onTap: () {
+              context.push('/app3');
+            },
+            child: const OptionApp(
+              height: 150,
+              width: 350,
+              imageAsset: 'assets/images/app3.png',
+              title: 'App 3',
+              subTitle: 'Sweet Home\npuede navegar\ncon See all',
+              backGroundcolor: Colors.white,
+            ),
+          ),
         ],
       ),
     );

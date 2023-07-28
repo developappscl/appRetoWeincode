@@ -59,7 +59,7 @@ class _HomeView extends StatelessWidget {
 class _SearchView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       height: 80,
       width: MediaQuery.of(context).size.width * 0.87,
       child: Row(
@@ -158,7 +158,7 @@ class _OrderView extends StatelessWidget {
 }
 
 class _ProductList extends StatelessWidget {
-  const _ProductList({super.key});
+  const _ProductList();
 
   @override
   Widget build(BuildContext context) {

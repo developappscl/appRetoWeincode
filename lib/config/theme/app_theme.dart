@@ -125,8 +125,9 @@ class AppThemeApp3 {
   AppThemeApp3({required this.isDarkMode});
 
   ThemeData defaultTheme() => ThemeData(
+        scaffoldBackgroundColor: AppColors.app2BackgroundColor,
         useMaterial3: true,
-        fontFamily: 'Monserrat',
+        fontFamily: 'Raleway',
         brightness: isDarkMode ? Brightness.dark : Brightness.light,
         textTheme: const TextTheme(
           displayLarge: TextStyle(
@@ -134,12 +135,10 @@ class AppThemeApp3 {
               fontWeight: FontWeight.bold,
               color: AppColors.app3BrandPrimaryColor),
           displayMedium: TextStyle(
-              fontSize: 20,
-              fontWeight: FontWeight.bold,
-              color: AppColors.app3BrandPrimaryColor),
+              fontSize: 20, fontWeight: FontWeight.bold, color: Colors.black),
           displaySmall: TextStyle(
               fontSize: 10,
-              fontWeight: FontWeight.bold,
+              fontWeight: FontWeight.normal,
               color: AppColors.app3BrandPrimaryColor),
           labelLarge: TextStyle(
               fontSize: 20,
